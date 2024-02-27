@@ -1,0 +1,249 @@
+:root {
+    --color1: #D9D8D3;
+    --color2: #F7F3EC;
+    --color3: #AA9A9A;
+    --color4: #262626;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: var(--color1);
+    margin: 0%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    min-width: 500px;
+}
+
+.logotop,nav {
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.logotop {
+    font-size: 2.1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-left: 2em;
+    
+}
+a {
+    padding: 1.5em 2em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+.sect1 {
+    background-color: var(--color1);
+    width: 100vw;
+    margin: 0%;
+    margin-bottom: 0%;
+    
+}
+.divimgtop {
+    display: flex;
+    justify-content: flex-end;
+}
+.imgtop {
+    width: 100%;
+    min-width: 500px;
+    margin-left: 23vw;
+    margin-right: 4%;
+}
+.linktop {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em ;
+    margin: 1.9% 0 ;
+    margin-bottom: 1%;
+    margin:  0;
+    text-decoration: underline;
+}
+
+.sect2 {
+    background-color: var(--color2);
+    width: 100vw;
+    min-width: 700px;
+    margin-top: 0%;
+    padding: 0%;
+    display: flex;
+}
+.parag1 {
+    width: 66%;
+    margin: 0% 0% 5% 12%;
+    font-size: 27px;
+    border-top: 1px solid black;
+}
+.divpsect2 {
+    margin: 5% 1% 3% 1%;
+    min-width: 500px;
+}
+.button1 {
+    padding: 31px 54px;
+    border: 2px solid black;
+    background-color: #F7F3EC;
+    font-size: medium;
+    margin-top: 15%;
+    margin-left: 19.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.divimgsect2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 500px;
+    margin-right: 3%;
+    width: 80%;
+    margin-bottom: 7%;
+}
+.imgsect2 {
+    width: 32%; 
+    min-width: 100px;
+    height: 80%;
+    margin: 8% 1% 11% 0%;   
+}
+.sect3 {
+    background: var(--color2);
+    width: 100vw;
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgpele {
+    width: 62%;
+    min-width: 500px;
+    margin-left: 3%;
+    padding-bottom: 6%;
+}
+.divsect3 {
+    display: block;
+    width: 19%;
+    margin-right: 4%;
+}
+.parag2 {
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 42px;
+    font-weight: 500;
+}
+.button2 {
+    background-color: var(--color2);
+    padding: 23px 54px;
+    font-size: medium;
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sect4 {
+    width: 100vw;
+    min-width: 700px;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+}
+.imgfinal {
+    width: 62%;
+    min-width: 500px;
+    margin: 7% 3% 10% 0;
+}
+.divsect4 {
+    margin: 5% 0 0 5%; 
+}
+.parag3 {
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+    padding: 8% 0px;
+    font-size: 40px;
+    border-top: 1px solid black;
+    font-weight: 500;
+}
+.button3 {
+    margin-top: 25%;
+    padding: 23px 74px;
+    font-size: medium;
+    border: 2px solid black;
+    background-color: #AA9A9A;
+    font-size: medium;
+}
+footer {
+    width: 100vw;
+    min-width: 700px;
+    background-color: var(--color4);
+    color: white;
+    display: ;
+}
+.logofooter {
+    font-size: 2.7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin: 0em 0 0 1em;
+    padding: 1em 0 1em 0;
+    
+}
+.divfooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-width: 800px;
+    padding-bottom: 4em;
+    flex-wrap: wrap;
+}
+.informacoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    padding: 0 10px .2em 0;
+    list-style: none;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.ultimoslinks {
+    display: block;
+    font-size: 25px;
+    color: var(--color3);
+    
+}
+.linksfooter {
+    line-height: .2;
+    margin-left: -10% ;
+}
+.form {
+    flex-wrap: wrap;
+    width: 15%;
+}
+.form button {
+    padding: 1.5em;
+    width: 100%;
+    margin-top: 3%;
+    border: solid lightgrey;
+    color: white;
+    background-color: var(--color4);
+}
+input {
+    padding: 7% 14%;
+}
+.paragform {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 1em;
+    color: var(--color3);
+}
+button:hover {
+    color: white;
+    background-color: black;
+}
+nav a:hover {
+    text-decoration: underline black;
+}
